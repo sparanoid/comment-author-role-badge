@@ -3,8 +3,8 @@ Contributors: Sparanoid
 Donate link: https://sparanoid.com/donate/
 Tags: author, badge, badges, comment, comments, css, theme
 Requires at least: 4.6
-Tested up to: 4.7
-Stable tag: 1.0.0
+Tested up to: 5.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,10 @@ No. No database read/write for this plugin.
 1. Plugin enabled with WordPress official theme Twenty Twelve
 
 == Changelog ==
+
+= 1.0.1 =
+* Featuer: add CSS variables support
+* Compatibility check for 5.0
 
 = 1.0.0 =
 * First release

@@ -4,7 +4,7 @@
  * Plugin URI: https://sparanoid.com/work/comment-author-role-badge/
  * Description: Displays a user badge next to the comment author name based on author's role
  * Author: Tunghsiao Liu
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author URI: https://sparanoid.com
  * License: GPL2+
  */
