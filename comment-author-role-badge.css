@@ -1,3 +1,12 @@
+:root {
+  --plugin-carb-text-color: rgba(0, 0, 0, .6);
+  --plugin-carb-1: #c1e7f1;
+  --plugin-carb-2: #c1f1d1;
+  --plugin-carb-3: #fdf5c5;
+  --plugin-carb-4: #fdd8c5;
+  --plugin-carb-5: #e8e8e8;
+}
+
 .comment-author-role-badge {
   display: inline-block;
   padding: 3px 6px;
@@ -5,7 +14,7 @@
   margin-right: .5em;
   background: #e8e8e8;
   border-radius: 2px;
-  color: rgba(0, 0, 0, .6);
+  color: var(--plugin-carb-text-color);
   font-size: .75rem;
   font-weight: normal;
   text-transform: none;
@@ -19,11 +28,11 @@
   display: none;
 }
 
-.comment-author-role-badge--administrator { background: #c1e7f1; }
-.comment-author-role-badge--contributor   { background: #c1f1d1; }
-.comment-author-role-badge--author        { background: #fdf5c5; }
-.comment-author-role-badge--editor        { background: #fdd8c5; }
-.comment-author-role-badge--subscriber    { background: #e8e8e8; }
+.comment-author-role-badge--administrator { background: var(--plugin-carb-1); }
+.comment-author-role-badge--contributor   { background: var(--plugin-carb-2); }
+.comment-author-role-badge--author        { background: var(--plugin-carb-3); }
+.comment-author-role-badge--editor        { background: var(--plugin-carb-4); }
+.comment-author-role-badge--subscriber    { background: var(--plugin-carb-5); }
 
 /*
  * Install the following plugin to enable this feature
