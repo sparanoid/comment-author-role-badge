@@ -36,13 +36,16 @@ No. No database read/write for this plugin.
 == Changelog ==
 
 = 1.0.1 =
-* Featuer: add CSS variables support
+* Feature: add CSS variables support
 * Compatibility check for 5.0
 
 = 1.0.0 =
 * First release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Feature: add CSS variables support
 
 = 1.0.0 =
 * First release
